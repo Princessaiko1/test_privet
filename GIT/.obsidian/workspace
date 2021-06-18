@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "95624d391243de72",
+    "type": "split",
+    "children": [
+      {
+        "id": "20725469dab9f8df",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Git установка.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2811bec218dbebe2",
+    "type": "split",
+    "children": [
+      {
+        "id": "90f790e3eefb89dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9350ac2c11cf66c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8f452edc91672b98",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1115462c644b8dad",
+    "type": "split",
+    "children": [
+      {
+        "id": "39e922a1ac421ff7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c275f17d2f9f50a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git установка.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "20725469dab9f8df",
+  "lastOpenFiles": [
+    "Git установка.md",
+    "LF и CRLF.md",
+    "CL R.md",
+    "Untitled.md"
+  ]
+}
