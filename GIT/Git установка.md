@@ -58,3 +58,13 @@ git
 git add namefile
 git commit -m "message Here"
 git push -u origin main
+
+
+## Решение: залезла в инструкции и стала читать и разбираться в базовых понятиях
+
+Есть отладчик [дебагер](https://github-debug.com/)
+
+1. Проверить верное ли соединение с github? объясняют [тут](# Error: Permission denied (publickey))
+2. проверить верность доступов к удаленным репозиториям [тут](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories)
+3. прочитать о самих удаленных репозиториях, [тут](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git/about-remote-repositories)
+4. 
