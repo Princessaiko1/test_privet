@@ -6,7 +6,6 @@ if [ ${#gstatus} -ne 0 ]
 then
     eval $(ssh-agent)
     ssh-add "C:\Users\i7\.ssh\id_rsa" 
-    ssh add -t 180
     git add --all
     git commit -m "Automated sync: $gstatus"
     git pull --rebase
