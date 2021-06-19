@@ -67,4 +67,36 @@ git push -u origin main
 1. Проверить верное ли соединение с github? объясняют [тут](# Error: Permission denied (publickey))
 2. проверить верность доступов к удаленным репозиториям [тут](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories)
 3. прочитать о самих удаленных репозиториях, [тут](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git/about-remote-repositories)
-4. 
+
+
+проблема была еще в ssh-agent
+
+## убрать лишнии процессы ssh-agent
+**_This results in 1 Windows 'ssh-agent' process being created every single time you run these commands (notice the new PID every time you enter those commands?)_**
+
+So, `Ctrl`+`Alt`+`Del` and hit `End Process` to stop each '**ssh-agent.exe**' process.
+
+Now that all the messed up stuff from the failed attempts is cleaned up, I will tell you how to get it working...
+
+## In '**Git Bash**':
+
+Start the '**ssh-agent.exe**' process
+
+```
+eval $(ssh-agent -s)
+```
+
+And install the SSH keys
+
+```
+ssh-add "C:\Users\MyName\.ssh\id_rsa"
+```
+
+**\* Adjust the path above with your username, and make sure that the location of the\*** **/.ssh** **_directory is in the correct place. I think you choose this location during the Git installation? Maybe not..._**
+
+The part I was doing wrong before I figured this out was I was not using quotes around the '**ssh-add**' location. The above is how it needs to be entered on Windows.
+
+# ! Закрытый ключ по умолчанию хранится в `.ssh/id_rsa` , а открытый-в `.ssh/id_rsa.pub`
+
+
+push 
