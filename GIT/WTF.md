@@ -14,7 +14,7 @@ ssh доступ настроен не правильно.
 SSH_AGENT_PID=1854; export SSH_AGENT_PID;
 echo Agent pid 1854;
 3. обычно путь куда помещаются ключи вот такое: `C:\Users\i7\.ssh`.  Закрытый ключ по умолчанию хранится в `.ssh/id_rsa` , а открытый-в `.ssh/id_rsa.pub` .
-4. далее нужно указать **путь** где данные файлы лежат, с помощью команды `ssh-add "C:\User\i7\.ssh\id_rsa"`
+4. далее нужно указать **путь** где данные файлы лежат, с помощью команды `ssh-add "C:\Users\i7\.ssh\id_rsa"`
 5. Так же нужно добавить ключ .pub в панели на github->settings->ssh and gpg keys->создать там новый ключ, вписать данные из файла .pub-> сохранить
 6. потом проверить снова связь: `ssh -T username@github.com`
     ответ Permission denied (publickey)
