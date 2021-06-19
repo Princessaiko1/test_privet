@@ -5,7 +5,6 @@ gstatus=`git status --porcelain`
 if [ ${#gstatus} -ne 0 ]
 then
     
-    ssh-add "C:\Users\i7\.ssh\id_rsa" 
     git add --all
     git commit -m "Automated sync: $gstatus"
     git pull --rebase
