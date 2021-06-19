@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git установка.md",
+            "file": "WTF.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git установка.md",
+                "file": "WTF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
   },
   "active": "20725469dab9f8df",
   "lastOpenFiles": [
-    "Git установка.md",
     "WTF.md",
-    "Untitled.md",
+    "Git установка.md",
     "LF и CRLF.md",
+    "Untitled.md",
     "CL R.md"
   ]
 }
