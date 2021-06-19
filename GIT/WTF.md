@@ -79,6 +79,9 @@ sdfjhklsdhfjshdlf
 eval $(ssh-agent)
 ssh-add "C:\Users\i7\.ssh\id_rsa"
 
+taskkill /F /IM ssh-agent.exe
+
 ---
+
 не сработало
 killall ssh-agent
