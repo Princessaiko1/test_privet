@@ -68,3 +68,4 @@ echo Agent pid 1854;
 
 ---
 Тест проверка работы скрипта 2
+sdfjhklsdhfjshdlf
