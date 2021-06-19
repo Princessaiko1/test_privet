@@ -83,11 +83,13 @@ taskkill /F /IM ssh-agent.exe
 
 ---
 убрали из файла **sync** 
+
 `eval $(ssh-agent)
   ssh-add "C:\Users\i7\.ssh\id_rsa" `
 
 
 убрала автозапуск
+
 `env=~/.ssh/agent.env
 
 agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
