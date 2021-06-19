@@ -10,5 +10,6 @@ then
     git commit -m "Automated sync: $gstatus"
     git pull --rebase
     git push
+    killall ssh-agent
 
 fi

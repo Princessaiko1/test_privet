@@ -78,3 +78,4 @@ sdfjhklsdhfjshdlf
 5 проверка файла sync со строками кода
 eval $(ssh-agent)
 ssh-add "C:\Users\i7\.ssh\id_rsa"
+killall ssh-agent
