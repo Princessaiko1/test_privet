@@ -69,3 +69,5 @@ echo Agent pid 1854;
 ---
 Тест проверка работы скрипта 2
 sdfjhklsdhfjshdlf
+
+3 буз файлов
