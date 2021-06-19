@@ -82,7 +82,7 @@ ssh-add "C:\Users\i7\.ssh\id_rsa"
 taskkill /F /IM ssh-agent.exe
 
 ---
-убрали из файла
-sync 
-eval $(ssh-agent)
-    ssh-add "C:\Users\i7\.ssh\id_rsa" 
+убрали из файла **sync** 
+`eval $(ssh-agent)
+  ssh-add "C:\Users\i7\.ssh\id_rsa" `
+
