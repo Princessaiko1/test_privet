@@ -2,7 +2,7 @@
 
 gstatus=`git status --porcelain`
 
-if [ ${#gstatus} -ne 0 ]
+if ([ ${#gstatus} -ne 0 ])
 then
 
     git add --all
