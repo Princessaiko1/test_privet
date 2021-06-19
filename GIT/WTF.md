@@ -71,3 +71,6 @@ echo Agent pid 1854;
 sdfjhklsdhfjshdlf
 
 3 буз файлов
+
+
+4 проверка после перезапуска
